@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-primary text-text-primary;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer components {
+  .gradient-bg {
+    @apply bg-gradient-to-br from-primary via-secondary to-primary animate-gradient-xy;
+  }
+  
+  .glass-card {
+    @apply bg-secondary/30 backdrop-blur-md border border-white/10 rounded-xl shadow-lg;
+  }
+  
+  .glow {
+    @apply relative;
+  }
+  
+  .glow::before {
+    @apply content-[''] absolute -inset-0.5 bg-gradient-to-r from-accent-1 via-accent-2 to-accent-3 rounded-xl blur opacity-75 transition duration-1000 group-hover:opacity-100 animate-gradient-x;
+    z-index: -1;
+  }
+  
+  .gradient-text {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-accent-1 via-accent-2 to-accent-3 animate-gradient-x;
+  }
+  
+  .nav-link {
+    @apply px-4 py-2 rounded-lg transition-all duration-300 hover:bg-white/10 relative;
+  }
+  
+  .nav-link.active {
+    @apply bg-white/10;
+  }
+  
+  .nav-link.active::after {
+    @apply content-[''] absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-accent-1 to-accent-2;
+  }
+  
+  .btn {
+    @apply px-6 py-2 rounded-lg font-medium transition-all duration-300;
+  }
+  
+  .btn-primary {
+    @apply bg-gradient-to-r from-accent-1 to-accent-2 hover:from-accent-2 hover:to-accent-1 text-white shadow-lg hover:shadow-accent-1/50;
+  }
+  
+  .cursor-glow {
+    @apply fixed w-8 h-8 rounded-full pointer-events-none z-50 mix-blend-screen;
+    background: radial-gradient(circle, rgba(139, 92, 246, 0.8) 0%, rgba(59, 130, 246, 0) 70%);
+    transform: translate(-50%, -50%);
+  }
+}
