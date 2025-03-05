@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Menu, X, Download } from 'lucide-react';
+import { Menu, X, Download , ExternalLink } from 'lucide-react';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -118,12 +118,11 @@ const Navbar: React.FC = () => {
               <a
                   href="/Rajiv_Kumar_CV.pdf"
                   download="Rajiv_Kumar_CV.pdf"
-                  className="btn btn-primary flex items-center justify-center gap-2"
-                >
-                  <Download size={18} />
-                  <span>Download CV</span>
+                  className="btn bg-white/10 hover:bg-white/20 flex items-center gap-2"
+                 >
+                  <span>Download CV</span> 
+                  <ExternalLink size={18} />
               </a>
-
             </nav>
           </motion.div>
         )}

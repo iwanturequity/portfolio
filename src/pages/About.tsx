@@ -158,7 +158,7 @@ const About: React.FC = () => {
                 <p className="text-text-secondary">Coursera • 2023</p>
               </li>
               <li>
-                <h4 className="font-semibold">React Advanced Patterns</h4>
+                <h4 className="font-semibold">React Advanced </h4>
                 <p className="text-text-secondary">Self-taught • 2024</p>
               </li>
               <li>
