@@ -41,46 +41,46 @@ const Home: React.FC = () => {
 
   const featuredProjects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-featured e-commerce platform with product management, cart functionality, and payment integration.',
-      image: 'https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80',
-      tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+      title: 'Decentralized DigiVault',
+      description: 'Decentralized DigiVault is a blockchain-based document storage system that ensures secure, tamper-proof storage using IPFS, smart contracts, and Polygon. It also integrates machine learning for document authenticity verification.',
+      image: 'Decentralized-Storage.jpg',
+      tags: ['React', 'Node.js', 'Solidity', 'IPFS', 'Polygon', ],
       liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com',
+      githubUrl: 'https://github.com/iwanturequity/Decentralized-DigiVault',
     },
     {
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates, task assignment, and progress tracking.',
-      image: 'https://images.unsplash.com/photo-1540350394557-8d14678e7f91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80',
-      tags: ['React', 'Firebase', 'Tailwind CSS'],
+      title: 'Charles-AI',
+      description: 'Charles-AI is a creative powerhouse web application that integrates advanced AI tools to generate code, images, videos, and audio.Utilized OpenAI advanced AI models to generate high-quality images',
+      image: '/AI-Webpage.png',
+      tags: [ 'Next Js','Redux' , 'Open AI', 'typescript', 'Prisma'],
       liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com',
+      githubUrl: 'https://github.com/iwanturequity/charles-ai',
     },
     {
-      title: 'Weather Dashboard',
-      description: 'A weather dashboard that displays current and forecasted weather data for multiple locations.',
-      image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-      tags: ['React', 'OpenWeather API', 'Chart.js'],
+      title: 'Portfolio Website',
+      description: 'My portfolio highlights my web development, machine learning projects, along with open-source contributions. It includes case studies, live demos, and GitHub repositories demonstrating my technical expertise.',
+      image: 'https://images.unsplash.com/photo-1545665277-5937489579f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
+      tags: ['React', 'Framer Motion', 'Tailwind CSS'],
       liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com',
+      githubUrl: 'https://github.com/iwanturequity/portfolio',
     },
   ];
 
   const codingProfiles = [
     {
       platform: 'LeetCode',
-      username: 'johndoe',
+      username: 'rajivkumar0001',
       stats: 'Solved 350+ problems',
       icon: <Code size={24} className="text-white" />,
-      url: 'https://leetcode.com',
+      url: 'https://leetcode.com/u/rajivkumar0001/',
       color: 'bg-yellow-600',
     },
     {
       platform: 'GitHub',
-      username: 'johndoe-dev',
-      stats: '500+ contributions last year',
+      username: 'iwanturequity',
+      stats: '150+ contributions last year',
       icon: <Github size={24} className="text-white" />,
-      url: 'https://github.com',
+      url: 'https://github.com/iwanturequity',
       color: 'bg-gray-800',
     },
   ];
@@ -97,7 +97,7 @@ const Home: React.FC = () => {
       <section className="min-h-[calc(100vh-12rem)] flex flex-col md:flex-row items-center justify-center gap-8 mb-24">
         <motion.div className="md:w-1/2" variants={itemVariants}>
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            Hi, I'm <span className="gradient-text">John Doe</span>
+            Hi, I'm <span className="gradient-text">Rajiv Kumar</span>
           </h1>
           <h2 className="text-2xl md:text-3xl text-text-secondary mb-6">
             Full Stack Developer & UI/UX Designer
@@ -111,7 +111,7 @@ const Home: React.FC = () => {
             </Link>
             <div className="flex gap-4">
               <a
-                href="https://github.com"
+                href="https://github.com/iwanturequity"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 glass-card hover:bg-white/10 transition-colors"
@@ -120,7 +120,7 @@ const Home: React.FC = () => {
                 <Github size={24} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/rajivkumar0001/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 glass-card hover:bg-white/10 transition-colors"
@@ -129,7 +129,7 @@ const Home: React.FC = () => {
                 <Linkedin size={24} />
               </a>
               <a
-                href="mailto:contact@example.com"
+                href="rajivkumarbth111@gmail.com"
                 className="p-3 glass-card hover:bg-white/10 transition-colors"
                 aria-label="Email"
               >
@@ -143,13 +143,13 @@ const Home: React.FC = () => {
           <GlassCard className="w-full max-w-md" glowOnHover>
             <div className="relative w-64 h-64 mx-auto mb-6 rounded-full overflow-hidden border-4 border-white/10">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+                src="/profile pic.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="text-center">
-              <h3 className="text-2xl font-bold gradient-text mb-2">John Doe</h3>
+              <h3 className="text-2xl font-bold gradient-text mb-2">Rajiv Kumar</h3>
               <p className="text-text-secondary mb-4">
                 Passionate about creating beautiful and functional web experiences
               </p>
@@ -177,7 +177,7 @@ const Home: React.FC = () => {
           <GlassCard>
             <h3 className="text-2xl font-bold mb-6 gradient-text">My Story</h3>
             <p className="text-text-secondary mb-4">
-              I'm a passionate Full Stack Developer with over 5 years of experience in building web applications. I specialize in React, Node.js, and TypeScript, and I'm dedicated to creating clean, efficient, and user-friendly solutions.
+              I'm a passionate Full Stack Developer with over 1 years of experience in building web applications. I specialize in React, Node.js, and TypeScript, and I'm dedicated to creating clean, efficient, and user-friendly solutions.
             </p>
             <p className="text-text-secondary mb-4">
               My journey in web development began during my college years when I discovered my passion for coding. Since then, I've worked with various startups and established companies, helping them build scalable and maintainable web applications.
@@ -221,7 +221,7 @@ const Home: React.FC = () => {
                   </div>
                   <h3 className="text-xl font-bold">Experience</h3>
                 </div>
-                <p className="text-text-secondary">5+ years of professional experience in web development</p>
+                <p className="text-text-secondary">1+ years of professional experience in web development</p>
               </GlassCard>
 
               <GlassCard glowOnHover className="h-full">
@@ -231,7 +231,7 @@ const Home: React.FC = () => {
                   </div>
                   <h3 className="text-xl font-bold">Education</h3>
                 </div>
-                <p className="text-text-secondary">MSc in Computer Science from Tech University</p>
+                <p className="text-text-secondary">B.Tech in Computer Science from Institute of Engineering and management Kolkata</p>
               </GlassCard>
             </div>
           </div>
@@ -305,7 +305,7 @@ const Home: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold">Email</h4>
-                    <p className="text-text-secondary">contact@johndoe.com</p>
+                    <p className="text-text-secondary">rajivkumarbth111@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -314,7 +314,7 @@ const Home: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold">LinkedIn</h4>
-                    <p className="text-text-secondary">linkedin.com/in/johndoe</p>
+                    <p className="text-text-secondary">https://www.linkedin.com/in/rajivkumar0001/</p>
                   </div>
                 </div>
               </div>
@@ -357,16 +357,13 @@ const Home: React.FC = () => {
               Contact Me <ArrowRight size={18} />
             </Link>
             <a
-              href="#"
-              className="btn bg-white/10 hover:bg-white/20 flex items-center gap-2"
-              onClick={(e) => {
-                e.preventDefault();
-                // Add download functionality here
-                alert('CV download functionality would be implemented here');
-              }}
-            >
-              Download CV <ExternalLink size={18} />
+                href="/Rajiv_Kumar_CV.pdf"
+                download="Rajiv_Kumar_CV.pdf"
+                className="btn bg-white/10 hover:bg-white/20 flex items-center gap-2"
+              >
+                Download CV <ExternalLink size={18} />
             </a>
+
           </div>
         </GlassCard>
       </motion.section>

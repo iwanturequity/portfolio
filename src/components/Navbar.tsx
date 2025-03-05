@@ -116,18 +116,14 @@ const Navbar: React.FC = () => {
                 Contact
               </NavLink>
               <a
-                href="#"
-                className="btn btn-primary flex items-center justify-center gap-2"
-                onClick={(e) => {
-                  e.preventDefault();
-                  toggleMenu();
-                  // Add download functionality here
-                  alert('CV download functionality would be implemented here');
-                }}
-              >
-                <Download size={18} />
-                <span>Download CV</span>
+                  href="/Rajiv_Kumar_CV.pdf"
+                  download="Rajiv_Kumar_CV.pdf"
+                  className="btn btn-primary flex items-center justify-center gap-2"
+                >
+                  <Download size={18} />
+                  <span>Download CV</span>
               </a>
+
             </nav>
           </motion.div>
         )}

@@ -22,34 +22,34 @@ const CodingProfiles: React.FC = () => {
   const profiles = [
     {
       platform: 'LeetCode',
-      username: 'johndoe',
+      username: 'rajivkumar0001',
       stats: 'Solved 350+ problems | Top 5% in contests',
       icon: <Code size={24} className="text-white" />,
-      url: 'https://leetcode.com',
+      url: 'https://leetcode.com/u/rajivkumar0001/',
       color: 'bg-yellow-600',
     },
     {
       platform: 'CodeChef',
-      username: 'johndoe_dev',
-      stats: '5 Star Coder | Participated in 20+ contests',
+      username: 'rajivkumar001',
+      stats: '2 Star Coder | Participated in 6+ contests',
       icon: <Coffee size={24} className="text-white" />,
-      url: 'https://codechef.com',
+      url: 'https://www.codechef.com/users/rajivkumar001',
       color: 'bg-amber-700',
     },
     {
       platform: 'LinkedIn',
-      username: 'John Doe',
-      stats: '500+ connections | Regular tech content creator',
+      username: 'rajivkumar0001',
+      stats: '1000+ connections | Regular tech content creator',
       icon: <Linkedin size={24} className="text-white" />,
-      url: 'https://linkedin.com',
+      url: 'https://www.linkedin.com/in/rajivkumar0001/',
       color: 'bg-blue-700',
     },
     {
       platform: 'GitHub',
-      username: 'johndoe-dev',
-      stats: '20+ repositories | 500+ contributions last year',
+      username: 'iwanturequity',
+      stats: '15+ repositories | 150+ contributions last year',
       icon: <Github size={24} className="text-white" />,
-      url: 'https://github.com',
+      url: 'https://github.com/iwanturequity',
       color: 'bg-gray-800',
     },
   ];
@@ -84,26 +84,32 @@ const CodingProfiles: React.FC = () => {
             <div className="relative pl-8 border-l-2 border-accent-1">
               <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-accent-1"></div>
               <h3 className="text-xl font-bold">Started Competitive Programming</h3>
-              <p className="text-text-secondary">2018</p>
+              <p className="text-text-secondary">2023</p>
               <p className="mt-2">Began solving problems on LeetCode and participated in my first coding contest.</p>
             </div>
             <div className="relative pl-8 border-l-2 border-accent-2">
               <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-accent-2"></div>
-              <h3 className="text-xl font-bold">Reached 4-Star on CodeChef</h3>
-              <p className="text-text-secondary">2019</p>
+              <h3 className="text-xl font-bold">Reached 2-Star on CodeChef</h3>
+              <p className="text-text-secondary">2024</p>
               <p className="mt-2">Consistently participated in monthly contests and improved my problem-solving skills.</p>
             </div>
             <div className="relative pl-8 border-l-2 border-accent-3">
               <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-accent-3"></div>
               <h3 className="text-xl font-bold">Started Contributing to Open Source</h3>
-              <p className="text-text-secondary">2020</p>
+              <p className="text-text-secondary">2024</p>
               <p className="mt-2">Made my first open-source contributions and started building my GitHub profile.</p>
             </div>
             <div className="relative pl-8">
               <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-white"></div>
               <h3 className="text-xl font-bold">Present Day</h3>
-              <p className="text-text-secondary">2023</p>
+              <p className="text-text-secondary">2025</p>
               <p className="mt-2">Regularly participate in coding contests and contribute to open-source projects.</p>
+            </div>
+            <div className="relative pl-8">
+              <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-white"></div>
+              <h3 className="text-xl font-bold">Present Day</h3>
+              <p className="text-text-secondary">2025</p>
+              <p className="mt-2">Developing a chat App end to end encrypted</p>
             </div>
           </div>
         </div>

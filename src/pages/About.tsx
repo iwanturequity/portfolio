@@ -25,7 +25,7 @@ const About: React.FC = () => {
     { name: 'Node.js', level: 80 },
     { name: 'UI/UX Design', level: 75 },
     { name: 'MongoDB', level: 70 },
-    { name: 'GraphQL', level: 65 },
+    { name: 'C++', level: 90 },
   ];
 
   return (
@@ -51,10 +51,10 @@ const About: React.FC = () => {
               />
             </div>
             <div className="text-center">
-              <h2 className="text-2xl font-bold mb-2">John Doe</h2>
+              <h2 className="text-2xl font-bold mb-2">Rajiv Kumar</h2>
               <p className="text-text-secondary mb-4">Full Stack Developer</p>
               <div className="flex justify-center gap-4">
-                <span className="px-3 py-1 glass-card text-sm">5+ Years Experience</span>
+                <span className="px-3 py-1 glass-card text-sm">1+ Years Experience</span>
                 <span className="px-3 py-1 glass-card text-sm">Remote</span>
               </div>
             </div>
@@ -65,7 +65,7 @@ const About: React.FC = () => {
           <GlassCard>
             <h2 className="text-2xl font-bold mb-6 gradient-text">Biography</h2>
             <p className="text-text-secondary mb-4">
-              I'm a passionate Full Stack Developer with over 5 years of experience in building web applications. I specialize in React, Node.js, and TypeScript, and I'm dedicated to creating clean, efficient, and user-friendly solutions.
+              I'm a passionate Full Stack Developer with over 1 years of experience in building web applications. I specialize in React, Node.js, and TypeScript, and I'm dedicated to creating clean, efficient, and user-friendly solutions.
             </p>
             <p className="text-text-secondary mb-4">
               My journey in web development began during my college years when I discovered my passion for coding. Since then, I've worked with various startups and established companies, helping them build scalable and maintainable web applications.
@@ -112,16 +112,8 @@ const About: React.FC = () => {
             </div>
             <ul className="space-y-4">
               <li>
-                <h4 className="font-semibold">Senior Frontend Developer</h4>
-                <p className="text-text-secondary">TechCorp Inc. • 2020 - Present</p>
-              </li>
-              <li>
-                <h4 className="font-semibold">Full Stack Developer</h4>
-                <p className="text-text-secondary">WebSolutions • 2018 - 2020</p>
-              </li>
-              <li>
-                <h4 className="font-semibold">Junior Developer</h4>
-                <p className="text-text-secondary">StartupXYZ • 2016 - 2018</p>
+                <h4 className="font-semibold">Frontend Developer</h4>
+                <p className="text-text-secondary">Appkul Tech Solution • 10-2024 - 12-2025</p>
               </li>
             </ul>
           </GlassCard>
@@ -137,16 +129,16 @@ const About: React.FC = () => {
             </div>
             <ul className="space-y-4">
               <li>
-                <h4 className="font-semibold">MSc in Computer Science</h4>
-                <p className="text-text-secondary">Tech University • 2014 - 2016</p>
+                <h4 className="font-semibold">B.Tech in Computer Science Engineering</h4>
+                <p className="text-text-secondary">Institute of Engineering and Management Kolkata • 2022 - 2026</p>
               </li>
               <li>
-                <h4 className="font-semibold">BSc in Software Engineering</h4>
-                <p className="text-text-secondary">State University • 2010 - 2014</p>
+                <h4 className="font-semibold">ISc in Mathematics</h4>
+                <p className="text-text-secondary">A.N College Patna • 2019- 2021</p>
               </li>
               <li>
-                <h4 className="font-semibold">Web Development Bootcamp</h4>
-                <p className="text-text-secondary">Code Academy • 2013</p>
+                <h4 className="font-semibold">High School</h4>
+                <p className="text-text-secondary">National Public High School • 2019</p>
               </li>
             </ul>
           </GlassCard>
@@ -162,20 +154,20 @@ const About: React.FC = () => {
             </div>
             <ul className="space-y-4">
               <li>
-                <h4 className="font-semibold">AWS Certified Developer</h4>
-                <p className="text-text-secondary">Amazon Web Services • 2022</p>
+                <h4 className="font-semibold">JavaScript By Meta</h4>
+                <p className="text-text-secondary">Coursera • 2023</p>
               </li>
               <li>
                 <h4 className="font-semibold">React Advanced Patterns</h4>
-                <p className="text-text-secondary">Frontend Masters • 2021</p>
+                <p className="text-text-secondary">Self-taught • 2024</p>
               </li>
               <li>
-                <h4 className="font-semibold">MongoDB Certified Developer</h4>
-                <p className="text-text-secondary">MongoDB University • 2020</p>
+                <h4 className="font-semibold">MongoDB </h4>
+                <p className="text-text-secondary">Self-taught • 2024</p>
               </li>
               <li>
                 <h4 className="font-semibold">UI/UX Design Fundamentals</h4>
-                <p className="text-text-secondary">Design School • 2019</p>
+                <p className="text-text-secondary">Self-taught • 2024</p>
               </li>
             </ul>
           </GlassCard>

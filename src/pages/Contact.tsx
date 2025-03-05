@@ -76,7 +76,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold">Email</h3>
-                  <p className="text-text-secondary">contact@johndoe.com</p>
+                  <p className="text-text-secondary">rajivkumarbth111@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-start">
@@ -85,7 +85,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold">Location</h3>
-                  <p className="text-text-secondary">San Francisco, CA</p>
+                  <p className="text-text-secondary">Salt Lake , Kolkata</p>
                 </div>
               </div>
               <div className="flex items-start">
@@ -94,7 +94,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold">Phone</h3>
-                  <p className="text-text-secondary">+1 (123) 456-7890</p>
+                  <p className="text-text-secondary">+91 9798178521</p>
                 </div>
               </div>
             </div>
@@ -103,7 +103,7 @@ const Contact: React.FC = () => {
               <h3 className="text-xl font-bold mb-4">Follow Me</h3>
               <div className="flex space-x-4">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/iwanturequity"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 glass-card hover:bg-white/10 transition-colors"
@@ -113,7 +113,7 @@ const Contact: React.FC = () => {
                   </svg>
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/rajivkumar0001/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 glass-card hover:bg-white/10 transition-colors"
@@ -123,7 +123,7 @@ const Contact: React.FC = () => {
                   </svg>
                 </a>
                 <a
-                  href="https://twitter.com"
+                  href="https://x.com/iwanturequity"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 glass-card hover:bg-white/10 transition-colors"
@@ -133,7 +133,7 @@ const Contact: React.FC = () => {
                   </svg>
                 </a>
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/iwanaturequity_/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 glass-card hover:bg-white/10 transition-colors"
@@ -257,21 +257,21 @@ const Contact: React.FC = () => {
             <div className="glass-card p-4">
               <div className="flex justify-between items-start mb-2">
                 <div>
-                  <h3 className="font-semibold">Sarah Johnson</h3>
-                  <p className="text-sm text-text-secondary">sarah.j@example.com</p>
+                  <h3 className="font-semibold">Yash Gupta</h3>
+                  <p className="text-sm text-text-secondary">yashgupta978@gmail.com</p>
                 </div>
                 <span className="text-xs text-text-secondary">2 days ago</span>
               </div>
               <p className="text-text-secondary">
-                Hi John, I really liked your portfolio and I'm interested in working with you on a new project. Let's connect!
+                Hi Rajiv, I really liked your portfolio and I'm interested in working with you on a new project. Let's connect!
               </p>
             </div>
             
             <div className="glass-card p-4">
               <div className="flex justify-between items-start mb-2">
                 <div>
-                  <h3 className="font-semibold">Michael Brown</h3>
-                  <p className="text-sm text-text-secondary">michael.b@example.com</p>
+                  <h3 className="font-semibold">Shashi Ranjan</h3>
+                  <p className="text-sm text-text-secondary">shashiranjan1484@gmail.com</p>
                 </div>
                 <span className="text-xs text-text-secondary">1 week ago</span>
               </div>
