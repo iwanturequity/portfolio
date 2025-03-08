@@ -27,7 +27,7 @@ function App() {
       window.removeEventListener('mousemove', handleMouseMove);
     };
   }, []);
-
+  
   return (
     <div className="min-h-screen gradient-bg overflow-hidden">
       <CursorEffect position={cursorPosition} />
