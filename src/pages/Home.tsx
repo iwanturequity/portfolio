@@ -61,7 +61,7 @@ const Home: React.FC = () => {
       description: 'My portfolio highlights my web development, machine learning projects, along with open-source contributions. It includes case studies, live demos, and GitHub repositories demonstrating my technical expertise.',
       image: 'https://images.unsplash.com/photo-1545665277-5937489579f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
       tags: ['React', 'Framer Motion','FormSpree', 'Tailwind CSS'],
-      liveUrl: 'https://portfolio-sigma-puce-34.vercel.app/',
+      liveUrl: 'https://portfolio-rajiv-kumar.vercel.app/',
       githubUrl: 'https://github.com/iwanturequity/portfolio',
     },
   ];
