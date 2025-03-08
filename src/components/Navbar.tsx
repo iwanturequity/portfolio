@@ -77,13 +77,10 @@ const Navbar: React.FC = () => {
           </motion.div>
           <motion.div variants={itemVariants}>
             <a
-              href="#"
+              href="/Rajiv_Kumar_CV.pdf"
+              download="Rajiv_Kumar_CV.pdf"
               className="btn btn-primary flex items-center gap-2 group"
-              onClick={(e) => {
-                e.preventDefault();
-                // Add download functionality here
-                alert('CV download functionality would be implemented here');
-              }}
+              
             >
               <Download size={18} className="group-hover:animate-bounce" />
               <span>Download CV</span>
@@ -116,13 +113,12 @@ const Navbar: React.FC = () => {
                 Contact
               </NavLink>
               <a
-                  href="/Rajiv_Kumar_CV.pdf"
-                  download="Rajiv_Kumar_CV.pdf"
-                  className="btn bg-white/10 hover:bg-white/20 flex items-center gap-2"
-                 >
-                  <span>Download CV</span> 
-                  <ExternalLink size={18} />
-              </a>
+                href="/Rajiv_Kumar_CV.pdf"
+                download="Rajiv_Kumar_CV.pdf"
+                className="btn bg-white/10 hover:bg-white/20 flex items-center gap-2"
+              >
+                Download CV <ExternalLink size={18} />
+            </a>
             </nav>
           </motion.div>
         )}
