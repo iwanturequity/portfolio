@@ -45,7 +45,7 @@ const About: React.FC = () => {
           <GlassCard glowOnHover>
             <div className="relative w-full h-80 mb-6 rounded-lg overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1503443207922-dff7d543fd0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+                src="/gibli art.png"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />

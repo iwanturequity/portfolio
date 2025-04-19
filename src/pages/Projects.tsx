@@ -28,6 +28,22 @@ const Projects: React.FC = () => {
       githubUrl: 'https://github.com/iwanturequity/Decentralized-DigiVault',
     },
     {
+      title: 'AI-Interview-Coach',
+      description: 'Built a generative AI-powered mock interview platform using Gemini, with dynamic prompt engineering and Firestore integration for personalized, real-time interview feedback and ChatBot.',
+      image: '/image.png',
+      tags: ['React','Node Js',' Firebase (Firestore & Auth)','Express.js', 'TailWind CSS', ],
+      liveUrl: 'https://ai-interview-coach-wheat.vercel.app/',
+      githubUrl: 'https://github.com/iwanturequity/AI-Interview-Coach',
+    },
+    {
+      title: 'Chat-App',
+      description: 'Developed a full stack real-time chat application with React, Node.js, and Socket.io, featuring JWT-based authentication, MongoDB integration, and secure private messaging and implementing firebase Authentication.',
+      image: '/Chat-App.jpg',
+      tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Socket.io', 'Firebase'],
+      liveUrl: 'https://fullstack-chat-app-fxt7.onrender.com/login',
+      githubUrl: 'https://github.com/iwanturequity/fullstack-chat-app',
+    },
+    {
       title: 'Charles-AI',
       description: 'Charles-AI is a creative powerhouse web application that integrates advanced AI tools to generate code, images, videos, and audio.Utilized OpenAI advanced AI models to generate high-quality images',
       image: '/AI-Webpage.png',
@@ -50,22 +66,6 @@ const Projects: React.FC = () => {
       tags: ['React', 'Node.js', 'Express', 'Social APIs'],
       liveUrl: 'https://pathsphere.netlify.app/',
       githubUrl: 'https://github.com/iwanturequity/Pathsphere',
-    },
-    {
-      title: 'Traval App',
-      description: 'I developed a travel tour website using React and Tailwind CSS, allowing users to explore and filter. destinations based on categories, price, and ratings. The platform provides a seamless experience',
-      image: '/travalWebsite.jpg',
-      tags: ['React', 'TailWind CSS', 'Styled Components'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/iwanturequity/traval',
-    },
-    {
-      title: 'E-Mandi',
-      description: 'A full-stack e-commerce platform with product listings, shopping cart, and payment processing.',
-      image: '/vegetablewebsite.jpg',
-      tags: ['React', 'Node.js', 'Express', 'MongoDB'],
-      liveUrl: 'https://emandi-sable.vercel.app/',
-      githubUrl: 'https://github.com/iwanturequity/E-mandi',
     },
   ];
 
